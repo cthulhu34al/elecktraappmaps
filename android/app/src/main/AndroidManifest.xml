@@ -25,7 +25,7 @@
                 android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
                 android:value="true" />
                 <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyABJpgb8WREq9Np8of15KIeo4dSfIVZBl0E"/>
+               android:value="AIzaSyABJpgb8WREq9Np8of15KIeo4dSfIVZBl0"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -33,4 +33,5 @@
         </activity>
     </application>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 </manifest>
